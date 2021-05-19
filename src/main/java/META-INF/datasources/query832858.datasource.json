@@ -1,0 +1,100 @@
+{
+  "customId": "noticiasseguras",
+  "queryName": "NoticiasSeguras",
+  "sourceType": "entityFullName",
+  "baseEntity": null,
+  "blockly": null,
+  "entitySimpleName": "Noticia",
+  "entityFullName": "app.entity.Noticia",
+  "query": {
+    "isValid": true,
+    "rulesEntity": [
+      {
+        "entity": "Noticia",
+        "alias": "n",
+        "namespace": "app.entity.Noticia"
+      }
+    ],
+    "rulesSelect": [
+      {
+        "func": "get",
+        "field": "n"
+      }
+    ],
+    "rulesGroupBy": [],
+    "rulesHaving": [],
+    "rulesOrderBy": [],
+    "rules": {
+      "condition": "AND",
+      "not": false,
+      "valid": true,
+      "rules": []
+    }
+  },
+  "queryParamsValues": [],
+  "verbs": {
+    "GET": true,
+    "GETAuthorities": [
+      "Public"
+    ],
+    "POST": true,
+    "POSTAuthorities": [
+      "Administrators"
+    ],
+    "PUT": false,
+    "PUTAuthorities": null,
+    "DELETE": false,
+    "DELETEAuthorities": null,
+    "FILTER": true,
+    "FILTERAuthorities": [
+      "Public"
+    ],
+    "COUNT": true,
+    "COUNTAuthorities": [
+      "Public"
+    ]
+  },
+  "events": {
+    "beforeInsert": null,
+    "beforeUpdate": null,
+    "beforeDelete": null,
+    "afterInsert": null,
+    "afterUpdate": null,
+    "afterDelete": null,
+    "onNavigate": null,
+    "onError": null
+  },
+  "defaultValues": {
+    "id": null,
+    "titulo": null,
+    "texto": null,
+    "datapubi": null
+  },
+  "defaultValuesProperties": {
+    "id": null,
+    "titulo": null,
+    "texto": null,
+    "datapubi": null
+  },
+  "security": {
+    "id": null,
+    "titulo": {
+      "filter": "Public",
+      "get": "Public"
+    },
+    "texto": {
+      "filter": "Public",
+      "get": "Public"
+    },
+    "datapubi": null
+  },
+  "calcFields": {},
+  "calcFieldsSecurity": {},
+  "calcFieldsProperties": {},
+  "errorHandles": {
+    "primaryKey": "{{NoiticiaIDDuplicado}}",
+    "foreignKey": null
+  },
+  "serviceUrl": "api/cronapi/odata/v2/app/query832858/",
+  "audit": false
+}
