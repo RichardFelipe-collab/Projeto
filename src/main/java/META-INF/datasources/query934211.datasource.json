@@ -1,0 +1,148 @@
+{
+  "customId": "query934211",
+  "queryName": "ESTATISTICAS",
+  "sourceType": "entityFullName",
+  "baseEntity": null,
+  "blockly": null,
+  "entitySimpleName": "Abastecimento",
+  "entityFullName": "app.entity.Abastecimento",
+  "query": {
+    "isValid": true,
+    "isEmpty": false,
+    "operationType": "object",
+    "type": "select",
+    "rulesEntity": [
+      {
+        "entity": "Abastecimento",
+        "namespace": "app.entity.Abastecimento",
+        "alias": "a"
+      }
+    ],
+    "rulesSelect": [
+      {
+        "func": "get",
+        "field": "a.posto.posto",
+        "type": "string"
+      },
+      {
+        "func": "get",
+        "field": "a.posto.id",
+        "type": "string"
+      },
+      {
+        "func": "avg",
+        "field": "a.valor",
+        "type": "double"
+      },
+      {
+        "func": "sum",
+        "field": "a.valor",
+        "type": "double"
+      },
+      {
+        "func": "count",
+        "field": "a.id",
+        "type": "string"
+      }
+    ],
+    "rulesGroupBy": [
+      {
+        "field": "a.posto.posto"
+      },
+      {
+        "field": "a.posto.id"
+      }
+    ],
+    "rulesHaving": [],
+    "rulesOrderBy": [],
+    "rules": {
+      "condition": "AND",
+      "rules": [
+        {
+          "id": "a.data",
+          "field": "a.data",
+          "type": "date",
+          "input": "text",
+          "operator": "between",
+          "value": [
+            ":dtIni",
+            "dtFim"
+          ],
+          "valueIsField": false
+        }
+      ],
+      "not": false,
+      "valid": true
+    },
+    "isRawSql": false,
+    "multiTenant": false,
+    "paginatorAutomatic": false,
+    "pagination": false
+  },
+  "queryParamsValues": [
+    {
+      "fieldName": "dtIni",
+      "fieldValue": ""
+    }
+  ],
+  "verbs": {
+    "GET": true,
+    "GETAuthorities": null,
+    "POST": true,
+    "POSTAuthorities": null,
+    "PUT": true,
+    "PUTAuthorities": null,
+    "DELETE": true,
+    "DELETEAuthorities": null,
+    "FILTER": true,
+    "FILTERAuthorities": null,
+    "COUNT": true,
+    "COUNTAuthorities": null
+  },
+  "events": {
+    "beforeInsert": null,
+    "beforeUpdate": null,
+    "beforeDelete": null,
+    "afterInsert": null,
+    "afterUpdate": null,
+    "afterDelete": null,
+    "onNavigate": null,
+    "onError": null
+  },
+  "defaultValues": {
+    "id": null,
+    "carro": null,
+    "posto": null,
+    "data": null,
+    "valor": null,
+    "precolitro": null,
+    "km": null
+  },
+  "defaultValuesProperties": {
+    "id": null,
+    "carro": null,
+    "posto": null,
+    "data": null,
+    "valor": null,
+    "precolitro": null,
+    "km": null
+  },
+  "security": {
+    "id": null,
+    "carro": null,
+    "posto": null,
+    "data": null,
+    "valor": null,
+    "precolitro": null,
+    "km": null
+  },
+  "calcFields": {},
+  "calcFieldsSecurity": {},
+  "calcFieldsProperties": {},
+  "errorHandles": {
+    "primaryKey": null,
+    "foreignKey": null
+  },
+  "serviceUrl": "api/cronapi/odata/v2/app/query934211/",
+  "audit": false
+}
