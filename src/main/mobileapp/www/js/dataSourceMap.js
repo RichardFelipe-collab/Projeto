@@ -1,12 +1,13 @@
 window.dataSourceMap = window.dataSourceMap || [];
 window.dataSourceMap["app.query558038"] = { customId: "meuscarros", serviceUrl: "api/cronapi/odata/v2/app/meuscarros/", serviceUrlODATA: "/api/cronapi/odata/v2/app/meuscarros" };
-window.dataSourceMap["app.query934211"] = { customId: "query934211", serviceUrl: "api/cronapi/odata/v2/app/query934211/", serviceUrlODATA: "/api/cronapi/odata/v2/app/query934211" };
+window.dataSourceMap["app.query934211"] = { customId: "estatisticas", serviceUrl: "api/cronapi/odata/v2/app/estatisticas/", serviceUrlODATA: "/api/cronapi/odata/v2/app/estatisticas" };
 window.dataSourceMap["app.User"] = { customId: "app.entity.User", serviceUrl: "api/cronapi/crud/app.entity.User", serviceUrlODATA: "/api/cronapi/odata/v2/app/User" };
 window.dataSourceMap["app.postonoticia"] = { customId: "postonoticia", serviceUrl: "api/cronapi/odata/v2/app/postonoticia/", serviceUrlODATA: "/api/cronapi/odata/v2/app/postonoticia" };
 window.dataSourceMap["app.Abastecimento"] = { customId: "app.entity.Abastecimento", serviceUrl: "api/cronapi/crud/app.entity.Abastecimento", serviceUrlODATA: "/api/cronapi/odata/v2/app/Abastecimento" };
 window.dataSourceMap["app.auditlogquery"] = { customId: "auditlogquery", serviceUrl: "api/cronapi/odata/v2/app/auditlogquery/", serviceUrlODATA: "/api/cronapi/odata/v2/app/auditlogquery" };
 window.dataSourceMap["app.userSecurableManager"] = { customId: "userSecurableManager", serviceUrl: "api/cronapi/odata/v2/app/userSecurableManager/", serviceUrlODATA: "/api/cronapi/odata/v2/app/userSecurableManager" };
 window.dataSourceMap["app.Noticia"] = { customId: "app.entity.Noticia", serviceUrl: "api/cronapi/crud/app.entity.Noticia", serviceUrlODATA: "/api/cronapi/odata/v2/app/Noticia" };
+window.dataSourceMap["app.estatisticas"] = { customId: "estatisticas", serviceUrl: "api/cronapi/odata/v2/app/estatisticas/", serviceUrlODATA: "/api/cronapi/odata/v2/app/estatisticas" };
 window.dataSourceMap["app.userRoleManager"] = { customId: "userRoleManager", serviceUrl: "api/cronapi/odata/v2/app/userRoleManager/", serviceUrlODATA: "/api/cronapi/odata/v2/app/userRoleManager" };
 window.dataSourceMap["app.device"] = { customId: "device", serviceUrl: "api/cronapi/query/1jy88nt41afza/", serviceUrlODATA: "/api/cronapi/odata/v2/app/device" };
 window.dataSourceMap["app.Securable"] = { customId: "app.entity.Securable", serviceUrl: "api/cronapi/crud/app.entity.Securable", serviceUrlODATA: "/api/cronapi/odata/v2/app/Securable" };

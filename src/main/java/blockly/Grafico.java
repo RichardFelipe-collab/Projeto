@@ -25,7 +25,7 @@ public static Var popular() throws Exception {
    public Var call() throws Exception {
 
     dados =
-    cronapi.database.Operations.query(Var.valueOf("app.entity.Abastecimento"),Var.valueOf("select a.posto.posto, SUM(a.valor)/SUM(a.km) from Abastecimento a"));
+    cronapi.database.Operations.query(Var.valueOf("app.entity.Abastecimento"),Var.valueOf("select a.posto.posto, SUM(a.valor)/SUM(a.km) from Abastecimento a  group by a.posto.posto"));
 
     cronapi.chart.Operations.createChart(
     Var.valueOf("chart723"),

@@ -15,8 +15,7 @@
       {
         "entity": "Abastecimento",
         "namespace": "app.entity.Abastecimento",
-        "alias": "a",
-        "name": "Abastecimento"
+        "alias": "a"
       }
     ],
     "rulesSelect": [

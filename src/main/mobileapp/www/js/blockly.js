@@ -10,3 +10,4 @@ window.translations.localesRef =  {"pt*":"pt_br","*":"pt_br","en*":"en_us"};
 document.write("<script src='js/blockly/auth/ChangePassword.blockly.js?1620821002049'></script>");
 document.write("<script src='js/blockly/auth/Login.blockly.js?1620821002048'></script>");
 document.write("<script src='js/blockly/auth/Home.blockly.js?1620821002047'></script>");
+document.write("<script src='js/blockly/auth/Maps.blockly.js?1621949235345'></script>");
